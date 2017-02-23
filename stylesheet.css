@@ -1,0 +1,138 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+html {
+    background-color:#ff0000;
+}
+
+body{
+    font-family:"Impact Haettenschweiler", "Franklin Gothic Bold","Charcoal", "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+    font-size: 20px;
+    float: left;
+}
+
+#header{
+    
+    font-style: italic;
+    font-size: 20px;
+    color: aqua;
+}
+
+h2{
+    font-family: serif;
+    font-size: 20px;
+    color: green;
+}
+
+
+
+/*=============navigation bar=====================*/
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow:     3px 3px 5px 6px #ccc; 
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #F90;
+    background-color: #FFF;
+}
+
+  
+
+.guide{
+    text-align: center;
+    color:black;
+    font size: 18px;
+}
+
+img{
+    height:200px;
+    width:200px;
+}
+/*==================sidebar====================*/
+
+.container {                                       
+   height: auto;                               
+   overflow: hidden;
+}
+
+.right {
+    width: 180px;
+    float: right;
+    background: #aafed6;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+
+/*================footer=========================*/
+
+#footer{
+  position: absolute;
+  right: 0;
+  bottom: -500;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+/*===================Textwrap============================*/
+.culture
+{
+        display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+.Textwrap{
+    float: left;
+    margin: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.TextwrapRight{
+    float: right;
+    margin: 15px;
+}
+/*======================content==================================*/
+.content {
+  display: table;
+  border-spacing: 1em;
+}
+.content > ul {
+  display: table-row;
+}
+li.product {
+  display: table-cell;
+  width:  170px;
+}
+
+/*====================================================*/
+#search {
+    box-shadow:     3px 3px 5px 6px #ccc; 
+}
+
